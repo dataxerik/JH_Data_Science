@@ -52,8 +52,8 @@ Third, using means and standard deviation list, I get an index list from the com
 Last, I add columns names to the dataset.
 
 
-First, I add the acitivty type column which is a row combination of y_train.txt and y_text.txt to the means_data dataset.
+First, I add the acitivty type column and subject ID which is a row combination of y_train.txt and y_text.txt and subject_train.txt and subject_test.txt respectively to the means_data dataset.
 
-Second, I aggregate the data by activty type and take the column means for each variable
+Second, I aggregate the data by activty type and subject and take the column means for each variable
 
 Last, I round the 7th digits place for the means and standarrd deviations columns, so each comlumn has the same number of digits
